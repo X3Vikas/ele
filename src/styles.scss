@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background: #2a135b;
+  color: white;
+  margin-top: 10%;
+}
+button,
+.btn-animation {
+  transition: 0.2s ease-in-out all !important;
+}
+
+button:hover {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+.btn-custom-red {
+  color: #fff;
+  background: transparent linear-gradient(270deg, #f3398b 0%, #e2ab1f 100%) 0% 0% no-repeat padding-box;
+}
+.logo {
+  height: 60px;
+}

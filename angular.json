@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "Remetron-Node-app"
+  "defaultProject": "Remetron-Node-app",
+  "cli": {
+    "analytics": false
+  }
 }

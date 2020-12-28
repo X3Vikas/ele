@@ -1,0 +1,11 @@
+.side-nav {
+  li {
+    background: #190546;
+    color: #aaaaaa;
+    padding: 10px;
+  }
+}
+.list-group-item + .list-group-item.active {
+  background: #2a135b;
+  border-color: #190546 !important;
+}
